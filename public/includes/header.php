@@ -8,9 +8,9 @@
     <div id="header_nav">
                 <ul>
                     <li id="h-iamhome"><a href="index.php">Home</a></li>
-                    <li id="h-iamprofile"><a href="profile.php">Profile</a></li>
+                    <li id="h-iamperson_profile"><a href="profile.php">Profile</a></li>
                     <li id="h-iamfriends"><a href="friends.php">Friends</a></li>
-                    <li id="h-iamlocations"><a href="locations.php">Locations</a></li>
+                    <li id="h-iamlocation_profile"><a href="locations.php">Locations</a></li>
                     <li id="h-iamnews"><a href="news.php">News</a></li>
                     <li id="h-iamevents"><a href="events.php">Events</a></li>
                 </ul>

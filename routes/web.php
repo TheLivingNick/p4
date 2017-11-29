@@ -38,6 +38,17 @@ Route::get('/debug', function () {
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/**
+* Homepage
+*/
+Route::get('/', 'WelcomeController');
+
+/**
+* Homepage
+*/
+Route::get('/profile', 'PersonController');
+
+/**
+* Homepage
+*/
+Route::get('/location', 'LocationController');
