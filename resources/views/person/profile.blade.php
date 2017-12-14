@@ -8,7 +8,7 @@
 
 @section('content')
 
-    <h2><span class="first_letter">P</span>rofile</h2>
+    <h2><span class="first_letter">P</span>rofile</h2> - <a href="/profile/edit">Edit Profile</a>
     <hr />
     <img src="{{ $person->profile_image }}" width="300" height="300" alt="Profile Pic"/>
     <h2 id="profile_name"><span class="first_letter">{{ $firstnameFirstLetter }}</span>{{ $firstnameTheRest }} <span class="first_letter">{{ $lastnameFirstLetter }}</span>{{ $lastnameTheRest }}</h2>

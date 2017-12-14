@@ -1,9 +1,9 @@
     <header id="header">
         <a href="index.php"><h1 id="page_title"><span class="first_letter">G</span>ame<span class="first_letter">N</span>eighbor</h1></a>
-        <img src="images/controller.png" alt="Controller" />
-        <img src="images/d20.png" alt="d20"/>
-        <img src="images/mouse.png" alt="Mouse"/>
-        <img src="images/board_piece.png" alt="Board Game Piece"/>
+        <img src="/images/controller.png" alt="Controller" />
+        <img src="/images/d20.png" alt="d20"/>
+        <img src="/images/mouse.png" alt="Mouse"/>
+        <img src="/images/board_piece.png" alt="Board Game Piece"/>
     </header>
     <div id="header_nav">
                 <ul>
