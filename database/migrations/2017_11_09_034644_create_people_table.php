@@ -24,7 +24,7 @@ class CreatePeopleTable extends Migration
             $table->string('street2');
             $table->string('city');
             $table->string('state');
-            $table->integer('zip');
+            $table->string('zip', 5)->comment('String to keep preceding 0');
             $table->text('summary');
             $table->boolean('interest_pc');
             $table->boolean('interest_console');

@@ -46,9 +46,13 @@ Route::get('/', 'WelcomeController');
 /**
 * Homepage
 */
-Route::get('/profile', 'PersonController');
+Route::get('/profile', 'PersonController@show');
+Route::get('/profile/edit', 'PersonController@edit');
+Route::put('/profile', 'PersonController@update');
+Route::post('/profile', 'PersonController@createGame');
+Route::delete('/profile', 'PersonController@deleteGame');
 
 /**
 * Homepage
 */
-Route::get('/location', 'LocationController');
+Route::get('/location', 'LocationController@show');
