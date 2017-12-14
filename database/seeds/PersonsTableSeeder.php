@@ -13,7 +13,7 @@ class PersonsTableSeeder extends Seeder
     public function run()
     {
       $persons = [
-        ['TheLivingNick', 'Nicholas', 'Troy', '\images\profile_pic.jpg', '1 Massachusetts Ave', 'Apt 101', 'Arlington', 'MA', '02474', 'Buncha text about me', '1', '1', '1', '1', 'Overwatch', 'FF Tactics', 'D&D 3.5', 'Sentinels of the Multiverse',],
+        ['TheLivingNick', 'Nicholas', 'Troy', '\images\profile_pic.jpg', '1 Massachusetts Ave', 'Apt 101', 'Arlington', 'MA', '02474', 'This would be the basic text summary for my profile. It would outline who I am, what I want to say, and other things like that.', '1', '1', '1', '1', 'Overwatch', 'FF Tactics', 'D&D 3.5', 'Sentinels of the Multiverse',],
       ];
 
       foreach ($persons as $key => $person) {
